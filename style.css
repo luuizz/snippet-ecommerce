@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main h1 {
+  margin-bottom: 40px;
+}
+
+/* O código inicia a partir daqui */
+
+.attr-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.attr-wrapper .area-attr {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
+.attr-wrapper .area-attr .top-head {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex: 1;
+  max-width: 164px;
+}
+
+.attr-wrapper .area-attr .top-head h3 {
+  flex: 1;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.attr-wrapper .area-attr .bottom-items {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.attr-wrapper .area-attr .bottom-items .item-attr {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.attr-wrapper .area-attr .bottom-items .item-attr .values {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.attr-wrapper .area-attr .bottom-items .item-attr .values span {
+  color: #555;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%; /* 1.6rem */
+}
+
+.attr-wrapper .area-attr .bottom-items .item-attr .controlls {
+  padding: 5px 15px 5px 13px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 21px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+}
+
+.attr-wrapper .area-attr .bottom-items .item-attr .controlls .btn-controll {
+  width: 24px;
+  height: 24px;
+}
+
+.attr-wrapper
+  .area-attr
+  .bottom-items
+  .item-attr
+  .controlls
+  .btn-controll
+  span {
+  color: #555;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.attr-wrapper .area-attr .bottom-items .item-attr .controlls .quantity {
+  color: #555;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.attr-wrapper .bottom-attr .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 2rem;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  background: #001391;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.attr-wrapper .bottom-attr .btn:hover {
+  background-color: #31b0ff;
+}
+
+.attr-wrapper .bottom-attr .btn span {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.attr-wrapper .bottom-attr .btn img {
+  width: 1.12494rem;
+  height: 1rem;
+}
