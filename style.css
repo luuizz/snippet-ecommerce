@@ -56,10 +56,10 @@ main h1 {
 
 .attr-wrapper .area-attr .top-head {
   display: flex;
-  gap: 18px;
+  gap: 45px;
   align-items: center;
   flex: 1;
-  max-width: 164px;
+  max-width: 163px;
 }
 
 .attr-wrapper .area-attr .top-head h3 {
@@ -89,6 +89,7 @@ main h1 {
   display: flex;
   align-items: center;
   gap: 0;
+  flex: 1;
 }
 
 .attr-wrapper .area-attr .bottom-items .item-attr .values span {
